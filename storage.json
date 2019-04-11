@@ -2,8 +2,9 @@
     "Posts":[
         {
             "id":1,
-            "title":"test",
-            "body": "this is a test body!"
+            "name":"Audi R8",
+            "image":"../images/audiR8.jpg",
+            "description": "Audi R8 in sexy blue!"
         }
     ]
 }
