@@ -5,6 +5,24 @@
             "name":"Audi R8",
             "image":"../images/audiR8.jpg",
             "description": "Audi R8 in sexy blue!"
+        },
+        {
+            "id":3,
+            "name":"Toyota MR2",
+            "image":"../images/toyotaMR2.jpg",
+            "description": "Toyota MR2 in white!"
+        },
+        {
+            "id":4,
+            "name":"Porshe 997 GT3",
+            "image":"../images/porscheGt3.jpg",
+            "description": "Porshe 997 GT3 in white!"
+        },
+        {
+            "id":5,
+            "name":"Honda Del Sol",
+            "image":"../images/hondaDelSol.jpg",
+            "description": "Honda Del Sol in black!"
         }
     ]
 }

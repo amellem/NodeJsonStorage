@@ -3,7 +3,7 @@
     <h1>Posts</h1>
     <ul>
         <% storage.Posts.forEach((item) => { %>
-            <li>
+            <li class="post">
                 <h3><%= item.name %></h3>
                 <div class="Image">
                     <img src="<%= item.image %>">
@@ -14,6 +14,7 @@
             </li>
         <% }) %>
     </ul>
+    <div class="clearFloat"></div>
     <!-- <button id="createPostBtn">Create a post</button>
     <form id="createPost" method="POST" action="/savePost">
         <label for="title">Title of post</label>

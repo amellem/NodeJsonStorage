@@ -5,6 +5,10 @@ h1{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
+
 #createPost{
     display: none;
 }
@@ -27,8 +31,28 @@ h1{
 }
 
 .body-wrapper{
-    margin: auto;
+    margin: 0 auto;
     width: 80%;
-    border:  3px solid grey;
+    height: auto;
     padding: 3em;
+}
+
+.Image{
+    width: 20em;
+    height: auto;
+}
+
+.Image img{
+    width: inherit;
+    height: inherit;
+}
+
+.post{
+    float: left;
+    list-style: none;
+    margin: 2.5em 2em ;
+}
+
+.clearFloat{
+    float: none;
 }
